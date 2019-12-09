@@ -24,9 +24,7 @@ class Snake{
     }
 
     draw(){
-        for (Snake i: dir){
-            rect(this.x*bscale, this.y*bscale, bscale, bscale);
-        }
+        rect(this.x*bscale, this.y*bscale, bscale, bscale);
     }
 }
 
